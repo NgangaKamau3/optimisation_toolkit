@@ -29,11 +29,4 @@ jobs:
       run: safety check
     
     - name: Run bandit security linter
-      run: bandit -r optimizers test_functions visualization -f json -o bandit-report.json
-    
-    - name: Upload bandit report
-      uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: bandit-report
-        path: bandit-report.json
+      run: bandit -r optimizers test_functions visualization
