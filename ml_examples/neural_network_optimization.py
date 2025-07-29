@@ -5,7 +5,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 from optimizers import SGD, Adam, RMSProp
-from visualization import plot_comparison
+
+# from visualization import plot_comparison  # Unused import
 
 
 class NeuralNetwork:

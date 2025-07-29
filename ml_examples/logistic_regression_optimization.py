@@ -9,7 +9,8 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from optimizers import SGD, Adam, RMSProp, LBFGS
-from visualization import plot_comparison
+
+# from visualization import plot_comparison  # Unused import
 
 
 class LogisticRegression:

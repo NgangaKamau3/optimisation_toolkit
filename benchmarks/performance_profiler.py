@@ -2,7 +2,7 @@ import time
 import memory_profiler
 import numpy as np
 import os
-from typing import Dict, List, Tuple
+from typing import Dict, List
 import matplotlib.pyplot as plt
 
 from optimizers import SGD, Adam, RMSProp, LBFGS
